@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Agregamos los preloads de los estios-->
+    <link rel="preload" href="/css/normalize.css" as="stylesheet">
+    <link rel="preload" href="/css/style.css" as="stylesheet">
+    <!--Agregamos los archivos de estilo-->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!--Agregamos los links de las fuentes de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!--El titulo de la página web-->
+    <title>Log In</title>
+</head>
+
+<body>
+    <header class="background_header">
+        <div class="logo">
+            <img src="img/logotipo Rosso.png" alt="logotipo de la optica">
+        </div>
+        <h1>Optica Rosso</h1>
+        <nav class="menu_principal nav_principal">
+
+            <!--Con el target="_blank" se abre otra pestaña este se usa para urls que te saquen de la página-->
+            <a href="index.html">Inicio</a>
+            <a href="somos.html">Somos</a>
+            <a href="Citas.html">Citas</a>
+            <a href="login.html">Log In</a>
+
+        </nav>
+    </header>
+
+    <section class="citas login2">
+        <h2>registrese</h2>
+        <form class="formulario_citas">
+
+            <fieldset>
+                <legend>Ingresa los siguientes datos</legend>
+
+                <div class="campo">
+                    <label for>Nombres:</label>
+                    <input type="text" placeholder="Insertar tu(s)nombres">
+                </div>
+
+                <div class="campo">
+                    <label for>Apellidos:</label>
+                    <input type="text" placeholder="Insertar tu(s)apellidos">
+                </div>
+
+                <div class="campo">
+                    <label for>Teléfono</label>
+                    <input type="number" placeholder="998 123 4367">
+                </div>
+
+                <div class="campo">
+                    <label for>Correo eléctronico</label>
+                    <input type="email" name id placeholder="mail@mail.com">
+                </div>
+
+
+                <div class="send_citas">
+                    <input class="button" type="submit" value="Enviar">
+                </div>
+
+            </fieldset>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="contenido_footer">
+            <nav>
+                <a href="#">Mapa de sitio|</a>
+                <a href="#">Aviso de privacidad|</a>
+                <a href="#">Terminos y condiciones</a>
+            </nav>
+            <p>Todos los derechos reservados &copy;2025</p>
+            <p>María José Contreras Pérez</p>
+            <p>Paola Nalleli Olan Silvan</p>
+            <p>Evelin Yasmin Laines Cupul</p>
+            <p>Edgar de Jesús Gamboa Iuit</p>
+        </div>
+    </footer>
+</body>
+
+</html>
